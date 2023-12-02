@@ -32,7 +32,7 @@ if __name__ == '__main__':
     # y = data['y']
     # model = sm.OLS(y,x)
     # result = model.fit()
-    result = looper(0.05,data)
+    result = looper(0.05,data)  #最优回归方程分析
     print(result.summary())
 
 
